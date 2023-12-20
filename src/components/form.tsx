@@ -16,7 +16,7 @@ const Form = () => {
         width: 250,
         margin: 2,
         color: {
-          dark: "#335383FF",
+          dark: "#333",
           light: "#FFFFFF00",
         },
       },
