@@ -30,7 +30,7 @@ const Form = () => {
   };
 
   return (
-    <div className="flex items-center justify-center h-screen max-w-xl mx-auto flex-col gap-y-5">
+    <div className="flex items-center justify-center max-w-xl mx-auto flex-col gap-y-5">
       <div className="flex flex-col items-center">
         <h1 className="text-3xl font-bold">Turn your link to QRcode</h1>
         <p className="text-sm text-muted-foreground max-w-[300px]">
@@ -43,7 +43,7 @@ const Form = () => {
       <div className="flex w-full px-10 flex-col gap-y-3">
         <input
           placeholder="Enter your link here"
-          className="border w-full py-2 px-1.5 rounded-lg"
+          className="border w-full py-2 px-1.5 rounded-lg focus:ring-violet-700 outline-none focus:ring-1"
           value={value}
           onChange={(e) => setValue(e.target.value)}
         />
