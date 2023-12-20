@@ -30,7 +30,7 @@ const Form = () => {
   };
 
   return (
-    <div className="flex items-center justify-center max-w-xl mx-auto flex-col gap-y-5">
+    <div className="flex items-center justify-center max-w-xl mx-auto flex-col gap-y-5 mb-20">
       <div className="flex flex-col items-center">
         <h1 className="text-3xl font-bold">Turn your link to QRcode</h1>
         <p className="text-sm text-muted-foreground max-w-[300px]">
