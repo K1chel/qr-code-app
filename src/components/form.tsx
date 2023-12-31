@@ -73,7 +73,9 @@ const Form = () => {
         ) : (
           <div className="w-full flex items-center justify-center mt-5">
             <div className="h-[250px] w-[250px] border rounded-md bg-gray-300 animate-pulse flex items-center justify-center">
-              <p className="text-sm">Your QR would be here</p>
+              <p className="text-sm font-semibold tracking-tight text-muted-foreground">
+                Your QR would be here
+              </p>
             </div>
           </div>
         )}
